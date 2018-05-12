@@ -23,7 +23,7 @@ The filter verify that the RemoteAddr match the pattern. This is the same usage 
     	</init-param>   
 		<init-param>
       		<param-name>allow</param-name>
-      		<param-value>127\.0\.0\.0</param-value>
+      		<param-value>127\.0\.0\.1</param-value>
     	</init-param>
 	</filter>
 
