@@ -83,9 +83,6 @@ public class FilterRemoteAddr implements Filter {
 
     }
     public boolean isAllowed(String property) {
-        // Use local copies for thread safety
-        Pattern deny = this.deny;
-        Pattern allow = this.allow;
 
         // Check the deny patterns, if any
         if (deny != null && deny.matcher(property).matches()) {
